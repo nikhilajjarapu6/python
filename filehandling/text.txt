@@ -1,0 +1,7 @@
+Concepts You ll Practice
+File handling
+PDF parsing (text and table extraction)
+Regex / string parsing
+OOP structure
+Writing modular code
+Data analysis & validation

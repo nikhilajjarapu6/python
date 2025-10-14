@@ -1,0 +1,6 @@
+Data analysis & validationWriting modular code
+OOP structure
+Regex / string parsing
+PDF parsing (text and table extraction)
+File handling
+Concepts You ll Practice
