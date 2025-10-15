@@ -1,0 +1,16 @@
+Lifeline Diagnostic Centre
+Comprehensive Blood Report
+
+Patient Name: Rahul Sharma            Age/Sex: 32/Male    hospital: KIMS hospitals   kcdhfeufh
+Report Date: 14-Oct-2025              Ref. Doctor: Dr. Meena Agarwal
+
+Test Name                Result     Units      Reference Range
+---------------------------------------------------------------
+Hemoglobin               13.5       g/dL       13.0 - 17.0
+RBC Count                5.12       million/uL 4.5 - 5.9
+WBC Count                7800       /uL        4000 - 10000
+Platelet Count           2.35       lakh/uL    1.5 - 4.5
+Glucose (Fasting)        98         mg/dL      70 - 110
+HbA1C                    6.1        %          < 5.7 (Normal)
+Total Cholesterol        190        mg/dL      < 200
+
