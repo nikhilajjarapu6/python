@@ -1,5 +1,5 @@
 import re
-import fitz  
+import fitz
 from collections import defaultdict
 import pandas as pd
 import pdfplumber
@@ -44,6 +44,8 @@ def extract_text_in_order(pdf_path: str):
     medication = ""
     test_data = ""
     follow_up = ""
+    other_instructions = ""
+    note = ""
 
     inside_discharge = False
     inside_tests = False
@@ -52,7 +54,9 @@ def extract_text_in_order(pdf_path: str):
         for page in doc:
             try:
                 blocks = page.get_text("blocks")
-                blocks = sorted(blocks, key=lambda b: (b[1], b[0]))
+                def sort_key(b):
+                    return b[1], b[0]
+                blocks = sorted(blocks, key=sort_key)
                 extracted_text = "\n".join(b[4].strip() for b in blocks if b[4].strip())
 
                 page_text = clean_page_text(extracted_text)

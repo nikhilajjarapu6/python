@@ -1,6 +1,6 @@
 import re
 from src.extractors import remove_header_text
-from groq import Groq
+# from groq import Groq
 import json
 import textwrap
 

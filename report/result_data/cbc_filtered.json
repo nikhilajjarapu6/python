@@ -1,0 +1,2992 @@
+[
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"12.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"38.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"4.21 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"9,110 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.50 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.3 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.5 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.3 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.6 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"93 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"05 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"12.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"38.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"4.23 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,050 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.77 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.5 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.4 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.0 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.1 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"78 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"12.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"40.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"4.41 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"9,820 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.73 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.2 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"13 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"05 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"12.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"39.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"4.31 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,400 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.79 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"92.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.8 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.2 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"80 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"12 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"07 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"33.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.55 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,420 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.60 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"93.0 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.5 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.5 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"79 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"05 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.7 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"30.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.30 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"8,120 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.50 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.8 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.3 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.0 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"78 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"07 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.1 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.37 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"8,050 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.60 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"92.2 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.6 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.2 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"77 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"13 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.51 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"9,160 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.5 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"90.2 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.4 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.5 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"77 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"07 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"33.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.69 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,440 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.85 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.0 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.2 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.1 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.0 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"78 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"12 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.48 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"7,170 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.73 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.8 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.3 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.1 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"72 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"16 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"11.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"37.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"4.11 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,930 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.69 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.9 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.8 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"77 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"16 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"05 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"30.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.44 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.37 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.8 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.0 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.8 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"78 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"07 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.1 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.25 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"13,630 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.43 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"89.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.9 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.3 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"84 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.63 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"13,970 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.5 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.0 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.3 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.2 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"13.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"24.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.83 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"13,330 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.5 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.5 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.7 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.51 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8\nMillions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"12,730 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000\ncells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"95000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1\nLakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"86.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.8 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"34.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.8 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.50 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"9,610 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"90000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.9 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"34.4 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.0 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.52 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"8,210 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"75000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"86.3 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.3 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"34.1 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"90 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"23.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.80 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"8,220 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"80000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"83.3 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.3 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"5.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"17.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.02 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.25 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"84.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"27.7 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.1 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"93 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"22.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.61 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,600 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.30 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"85.7 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.0 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"20.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.37 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"21,050 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.70 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.2 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.6 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.8 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"97 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"25.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.88 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"19,870 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.60 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.5 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.5 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.7 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"97 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"6.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"20.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.34 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,000 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.70 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.8 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.2 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.2 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.6 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"93 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"23.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.68 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"15,500 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.69 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.7 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.6 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.6 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"28.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.22 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"14,860 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.92 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.1 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.0 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.2 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"24.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.80 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,460 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.08 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.9 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.2 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.1 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.39 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"16,040 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.94 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"90.2 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.8 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.0 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"25.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.90 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,470 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.95 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"86.9 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.4 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.7 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.55 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"14,280 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.76 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"89.0 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.1 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"89 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"26.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.01 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,850 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.0 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.7 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.2 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.0 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"98 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"26.1 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.96 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,110 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.00 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.2 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.7 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.8 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"98 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.1 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.14 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"6,830 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.11 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.0 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.9 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"96 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.35 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"6,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.13 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"28.6 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.3 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"17.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"97 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.8 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.17 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"6,110 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.00 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"87.6 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.2 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.5 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"17.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.1 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"30.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.43 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"7,880 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.34 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"88.4 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.4 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.3 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"17.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.02 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"5,670 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.25 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.4 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.7 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"87 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"07 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"05 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.2 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.43 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"8,450 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.77 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"90.9 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.7 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.7 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"88 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.46 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"8,710 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.97 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"92.2 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"30.1 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"88 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.19 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"6,310 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.7 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.9 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.8 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.4 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.1 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"83 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.7 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.22 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"5,950 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.78 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.9 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"30.1 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.8 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.8 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.01 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"5,860 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.47 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"92.5 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.8 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.4 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"10 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.94 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"5,110 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.35 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"91.7 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"30.0 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"10 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.93 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"3,460 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.14 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"93.5 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"29.4 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.4 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"71 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"13 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"28.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.03 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"2,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.44 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"93.1 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"30.6 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"33.0 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"66 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.13 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"3,150 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"2.49 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm"
+    },
+    {
+        "PARAMETER":"MEAN CELL VOLUME (MCV)",
+        "RESULT":"92.7 fl",
+        "NORMAL RANGE":"83 - 101 fl"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN (MCH)",
+        "RESULT":"30.5 pg",
+        "NORMAL RANGE":"27 - 32 pg"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"32.8 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"60 %",
+        "NORMAL RANGE":"40 - 80 %"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"18 %",
+        "NORMAL RANGE":"20 - 40 %"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"1.0 - 6.0 %"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"16 %",
+        "NORMAL RANGE":"2.0 - 10.0 %"
+    }
+]

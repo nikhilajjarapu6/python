@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Consultant Receipt Generator</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #bb86fc;
+            --accent-hover: #9965f4;
+            --error-color: #cf6679;
+            --border-color: #333;
+            --success-color: #03dac6;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* Container */
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        h1, h2, h3 { color: var(--accent-color); margin-bottom: 20px; text-align: center; }
+        
+        /* Form Grid */
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .full-width { grid-column: span 2; }
+
+        .form-group { margin-bottom: 15px; }
+
+        label { display: block; margin-bottom: 5px; font-size: 0.9rem; color: #aaa; }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            background-color: #2c2c2c;
+            border: 1px solid var(--border-color);
+            color: white;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            background-color: #383838;
+        }
+
+        /* Error States */
+        input.error { border-color: var(--error-color); }
+        .error-msg { color: var(--error-color); font-size: 0.8rem; display: none; margin-top: 5px; }
+        input.error + .error-msg { display: block; }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+
+        .btn-submit { background-color: var(--accent-color); color: #000; }
+        .btn-submit:hover { background-color: var(--accent-hover); }
+
+        .btn-print { background-color: var(--success-color); color: #000; }
+        
+        .btn-whatsapp { background-color: #25D366; color: white; }
+
+        .btn-back { background-color: #444; color: white; }
+
+        /* Receipt View (Hidden by default) */
+        #receiptView { display: none; }
+
+        /* Receipt Styling */
+        .receipt-paper {
+            background-color: white;
+            color: black;
+            padding: 40px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+
+        .receipt-header { text-align: center; border-bottom: 2px solid #000; padding-bottom: 10px; margin-bottom: 20px; }
+        .receipt-header h2 { color: #d63384; margin: 0; text-transform: uppercase; } /* Pinkish color from image */
+        .receipt-header p { margin: 5px 0; color: #000; font-size: 0.9rem; }
+        
+        .receipt-row { display: flex; justify-content: space-between; margin-bottom: 10px; border-bottom: 1px dashed #ccc; padding-bottom: 5px; }
+        .receipt-label { font-weight: bold; }
+        
+        .finance-box { border: 1px solid #000; padding: 10px; margin-top: 20px; }
+        .finance-header { font-weight: bold; text-decoration: underline; margin-bottom: 10px; }
+
+        /* PRINT MEDIA QUERY */
+        @media print {
+            body { background-color: white; padding: 0; }
+            .container { box-shadow: none; max-width: 100%; padding: 0; }
+            #inputSection, .btn-group { display: none !important; }
+            #receiptView { display: block !important; }
+            .receipt-paper { padding: 0; margin: 0; }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .form-grid { grid-template-columns: 1fr; }
+            .full-width { grid-column: span 1; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <div id="inputSection">
+        <h1>New Sale Entry</h1>
+        <form id="saleForm">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Receipt No <span style="color:red">*</span></label>
+                    <input type="number" id="receiptNo" placeholder="e.g. 072" required>
+                    <span class="error-msg">Receipt No is required</span>
+                </div>
+                <div class="form-group">
+                    <label>Date <span style="color:red">*</span></label>
+                    <input type="date" id="date" required>
+                    <span class="error-msg">Date is required</span>
+                </div>
+
+                <div class="form-group full-width">
+                    <label>Customer Name <span style="color:red">*</span></label>
+                    <input type="text" id="custName" placeholder="Full Name" required>
+                    <span class="error-msg">Name is required</span>
+                </div>
+                <div class="form-group">
+                    <label>Son of (S/o)</label>
+                    <input type="text" id="sonOf" placeholder="Father's Name">
+                </div>
+                <div class="form-group">
+                    <label>Mobile Number <span style="color:red">*</span></label>
+                    <input type="tel" id="mobile" placeholder="10 digit number" pattern="[0-9]{10}" required>
+                    <span class="error-msg">Enter valid 10 digit mobile</span>
+                </div>
+                <div class="form-group full-width">
+                    <label>Address</label>
+                    <textarea id="address" rows="2" placeholder="House No, Colony, City"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Vehicle Reg No <span style="color:red">*</span></label>
+                    <input type="text" id="regNo" style="text-transform: uppercase;" placeholder="TS 00 AA 0000" required>
+                    <span class="error-msg">Reg No is required</span>
+                </div>
+                <div class="form-group">
+                    <label>Model Year</label>
+                    <input type="number" id="modelYear" placeholder="2023">
+                </div>
+                <div class="form-group">
+                    <label>Vehicle Make</label>
+                    <input type="text" id="make" placeholder="e.g. Bajaj CNG">
+                </div>
+
+                <div class="form-group">
+                    <label>Total Rate (Rs) <span style="color:red">*</span></label>
+                    <input type="number" id="totalRate" required>
+                    <span class="error-msg">Amount is required</span>
+                </div>
+                <div class="form-group">
+                    <label>Advance Paid (Rs) <span style="color:red">*</span></label>
+                    <input type="number" id="advance" required>
+                    <span class="error-msg">Advance is required</span>
+                </div>
+
+                <div class="full-width">
+                    <h3>Finance Details (Optional)</h3>
+                </div>
+                <div class="form-group full-width">
+                    <label>Financer Name</label>
+                    <input type="text" id="financerName" placeholder="e.g. Sumangali Financiers">
+                </div>
+                <div class="form-group">
+                    <label>Finance Amount</label>
+                    <input type="number" id="finAmount">
+                </div>
+                <div class="form-group">
+                    <label>Monthly Installment</label>
+                    <input type="number" id="emi">
+                </div>
+            </div>
+
+            <div class="btn-group">
+                <button type="button" class="btn-submit" onclick="generateBill()">Generate Receipt</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="receiptView">
+        <div class="receipt-paper" id="printableArea">
+            <div class="receipt-header">
+                <h2>NEW MAHEK AUTO CONSULTANTS</h2>
+                <p>Special in Diesel Auto - Commission Agents</p>
+                <p>Beside Bharat Petrol Pump, Moosapet, Hyderabad</p>
+                <h3 style="color:black; margin-top:10px; text-decoration: underline;">SALE ADVANCE RECEIPT</h3>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; margin-bottom:15px;">
+                <span><strong>No:</strong> <span id="r_no"></span></span>
+                <span><strong>Date:</strong> <span id="r_date"></span></span>
+            </div>
+
+            <div class="receipt-row">
+                <span class="receipt-label">Mr./Mrs.:</span>
+                <span id="r_name"></span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">S/o:</span>
+                <span id="r_sonof"></span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">Address:</span>
+                <span id="r_address"></span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">Cell No:</span>
+                <span id="r_mobile"></span>
+            </div>
+            <br>
+            <div class="receipt-row">
+                <span class="receipt-label">Vehicle Reg No:</span>
+                <span id="r_reg"></span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">Model:</span>
+                <span id="r_model"></span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">Total Rate:</span>
+                <span id="r_rate"></span>
+            </div>
+            <div class="receipt-row">
+                <span class="receipt-label">Advance Paid:</span>
+                <span id="r_advance"></span>
+            </div>
+
+            <div class="finance-box" id="financeSection">
+                <div class="finance-header">FINANCE DETAILS</div>
+                <div class="receipt-row">
+                    <span>Financer:</span> <span id="r_fin_name"></span>
+                </div>
+                <div class="receipt-row">
+                    <span>Amount:</span> <span id="r_fin_amt"></span>
+                </div>
+                <div class="receipt-row">
+                    <span>EMI:</span> <span id="r_emi"></span>
+                </div>
+            </div>
+
+            <br><br>
+            <div style="display:flex; justify-content:space-between; margin-top:40px;">
+                <div style="text-align:center;">
+                    ___________________<br>
+                    Signature of Seller
+                </div>
+                <div style="text-align:center;">
+                    ___________________<br>
+                    Signature of Purchaser
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-group">
+            <button class="btn-back" onclick="editForm()">Edit Details</button>
+            <button class="btn-print" onclick="window.print()">Print Bill</button>
+            <button class="btn-whatsapp" onclick="shareToWhatsapp()">Share on WhatsApp</button>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function generateBill() {
+        const form = document.getElementById('saleForm');
+        let isValid = true;
+
+        // Simple Validation Loop
+        const inputs = form.querySelectorAll('input[required]');
+        inputs.forEach(input => {
+            if (!input.value.trim()) {
+                input.classList.add('error');
+                isValid = false;
+            } else {
+                input.classList.remove('error');
+            }
+        });
+
+        // Mobile validation (India specific)
+        const mobile = document.getElementById('mobile');
+        if (mobile.value.length !== 10) {
+            mobile.classList.add('error');
+            isValid = false;
+        }
+
+        if (!isValid) {
+            alert("Please fill all mandatory fields correctly.");
+            return;
+        }
+
+        // Map Data to Receipt
+        document.getElementById('r_no').innerText = document.getElementById('receiptNo').value;
+        document.getElementById('r_date').innerText = document.getElementById('date').value;
+        document.getElementById('r_name').innerText = document.getElementById('custName').value;
+        document.getElementById('r_sonof').innerText = document.getElementById('sonOf').value;
+        document.getElementById('r_address').innerText = document.getElementById('address').value;
+        document.getElementById('r_mobile').innerText = document.getElementById('mobile').value;
+        document.getElementById('r_reg').innerText = document.getElementById('regNo').value.toUpperCase();
+        document.getElementById('r_model').innerText = document.getElementById('modelYear').value;
+        document.getElementById('r_rate').innerText = "Rs. " + document.getElementById('totalRate').value + "/-";
+        document.getElementById('r_advance').innerText = "Rs. " + document.getElementById('advance').value + "/-";
+
+        // Handle Finance Section Visibility
+        const finName = document.getElementById('financerName').value;
+        if(finName) {
+            document.getElementById('financeSection').style.display = 'block';
+            document.getElementById('r_fin_name').innerText = finName;
+            document.getElementById('r_fin_amt').innerText = document.getElementById('finAmount').value;
+            document.getElementById('r_emi').innerText = document.getElementById('emi').value;
+        } else {
+            document.getElementById('financeSection').style.display = 'none';
+        }
+
+        // Switch View
+        document.getElementById('inputSection').style.display = 'none';
+        document.getElementById('receiptView').style.display = 'block';
+    }
+
+    function editForm() {
+        document.getElementById('inputSection').style.display = 'block';
+        document.getElementById('receiptView').style.display = 'none';
+    }
+
+    function shareToWhatsapp() {
+        const name = document.getElementById('custName').value;
+        const reg = document.getElementById('regNo').value;
+        const rate = document.getElementById('totalRate').value;
+        const advance = document.getElementById('advance').value;
+        const date = document.getElementById('date').value;
+
+        const text = `*SALE RECEIPT - NEW MAHEK AUTO*\n\nDate: ${date}\nCustomer: ${name}\nVehicle: ${reg}\nTotal Price: Rs.${rate}\nAdvance Paid: Rs.${advance}\n\nThank you for your business!`;
+        
+        const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html>
+```

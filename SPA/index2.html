@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Mahek Auto - Receipt Generator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        :root {
+            --bg-dark: #0f172a;
+            --card-dark: #1e293b;
+            --primary: #8b5cf6; /* Violet */
+            --secondary: #ec4899; /* Pink */
+            --accent: #06b6d4; /* Cyan */
+            --text-light: #f1f5f9;
+            --text-gray: #94a3b8;
+            --error: #ef4444;
+            --success: #10b981;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+        body {
+            background: linear-gradient(135deg, var(--bg-dark), #000000);
+            color: var(--text-light);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* --- Animations --- */
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+            20%, 40%, 60%, 80% { transform: translateX(5px); }
+        }
+
+        .animate-entry { animation: slideUp 0.6s ease-out forwards; }
+        .shake-error { animation: shake 0.4s ease-in-out; border-color: var(--error) !important; }
+
+        /* --- Container --- */
+        .app-container {
+            width: 100%;
+            max-width: 900px;
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            text-align: center;
+            background: linear-gradient(to right, var(--accent), var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 30px;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        /* --- Form Grid --- */
+        .section-title {
+            grid-column: 1 / -1;
+            color: var(--accent);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 5px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .full-width { grid-column: 1 / -1; }
+
+        .input-group { position: relative; }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.85rem;
+            color: var(--text-gray);
+            font-weight: 500;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            background: #0f172a;
+            border: 2px solid #334155;
+            padding: 12px 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 0.95rem;
+            transition: 0.3s all;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 15px rgba(139, 92, 246, 0.2);
+        }
+
+        /* --- Checkboxes for Documents --- */
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .checkbox-item { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+        .checkbox-item input { width: auto; }
+
+        /* --- Buttons --- */
+        .actions {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 14px 30px;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            color: white;
+        }
+
+        button:active { transform: scale(0.95); }
+
+        .btn-generate { background: linear-gradient(45deg, var(--primary), var(--secondary)); box-shadow: 0 5px 15px rgba(236, 72, 153, 0.3); }
+        .btn-print { background: var(--success); display: none; }
+        .btn-share { background: #25D366; display: none; } /* Whatsapp Green */
+        .btn-edit { background: #64748b; display: none; }
+
+        /* --- Receipt View (Hidden Initially) --- */
+        #receiptPreview {
+            display: none;
+            background: white;
+            color: black;
+            padding: 0; /* Padding handled by internal container */
+            margin-top: 20px;
+            border-radius: 5px;
+            font-family: 'Times New Roman', serif;
+        }
+        
+        /* THE ACTUAL RECEIPT DESIGN (To match image) */
+        .paper {
+            background: #fff0f5; /* Light pinkish tint like image */
+            padding: 40px;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+
+        .r-header { text-align: center; color: #d63384; margin-bottom: 20px; border-bottom: 2px solid #d63384; padding-bottom: 10px; }
+        .r-header h2 { font-weight: 900; font-size: 24px; text-transform: uppercase; margin: 0; letter-spacing: 1px; }
+        .r-header .sub { background: #333; color: white; display: inline-block; padding: 2px 10px; font-size: 12px; margin: 5px 0; border-radius: 4px; }
+        .r-address { font-size: 10px; color: #333; margin-top: 5px; }
+
+        .r-row { display: flex; justify-content: space-between; margin-bottom: 8px; align-items: flex-end; }
+        .r-field { border-bottom: 1px dotted #333; flex-grow: 1; margin-left: 5px; font-weight: bold; color: #00008b; padding-left: 5px;}
+        
+        .legal-text { font-size: 11px; font-style: italic; margin: 15px 0; text-align: justify; line-height: 1.4; }
+        
+        .finance-box { border: 1px solid #d63384; padding: 10px; margin: 15px 0; border-radius: 5px; }
+        .finance-title { text-decoration: underline; font-weight: bold; color: #d63384; font-size: 12px; margin-bottom: 5px; }
+
+        .footer-sigs { display: flex; justify-content: space-between; margin-top: 50px; align-items: flex-end; }
+        .sig-box { text-align: center; font-size: 12px; }
+        .photo-box { width: 100px; height: 120px; border: 1px solid #999; display: flex; align-items: center; justify-content: center; margin-left: auto; background: #eee; }
+        .photo-box img { max-width: 100%; max-height: 100%; }
+
+        /* --- Responsive Tweaks --- */
+        @media (max-width: 768px) {
+            .app-container { padding: 20px; }
+            .form-grid { grid-template-columns: 1fr; }
+        }
+
+        /* --- Print Styles --- */
+        @media print {
+            body { background: white; padding: 0; margin: 0; }
+            .app-container { box-shadow: none; border: none; padding: 0; max-width: 100%; }
+            #inputForm, .actions, h1 { display: none !important; }
+            #receiptPreview { display: block !important; margin: 0; }
+            .paper { border: none; padding: 20px; width: 100%; background: white; }
+            /* Force background colors for print */
+            .r-header h2 { color: #d63384 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .sub { background-color: #333 !important; color: white !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container animate-entry">
+    <h1>Auto Consultant Receipt</h1>
+
+    <div id="inputForm">
+        <div class="form-grid">
+            
+            <div class="input-group">
+                <label>Receipt No <span style="color:var(--error)">*</span></label>
+                <input type="text" id="recNo" placeholder="072">
+            </div>
+            <div class="input-group">
+                <label>Date <span style="color:var(--error)">*</span></label>
+                <input type="date" id="date">
+            </div>
+
+            <h3 class="section-title">Seller Details</h3>
+            <div class="input-group full-width">
+                <label>Seller Name <span style="color:var(--error)">*</span></label>
+                <input type="text" id="sellerName" placeholder="Name of person selling">
+            </div>
+            <div class="input-group">
+                <label>Seller S/o</label>
+                <input type="text" id="sellerSo" placeholder="Father's Name">
+            </div>
+            <div class="input-group">
+                <label>Seller Cell No</label>
+                <input type="text" id="sellerCell" placeholder="10 digit number">
+            </div>
+            <div class="input-group full-width">
+                <label>Seller Address</label>
+                <input type="text" id="sellerAddr">
+            </div>
+
+            <h3 class="section-title">Vehicle Details</h3>
+            <div class="input-group">
+                <label>Reg. No <span style="color:var(--error)">*</span></label>
+                <input type="text" id="regNo" style="text-transform:uppercase" placeholder="TS 36 TA 5074">
+            </div>
+            <div class="input-group">
+                <label>Model</label>
+                <input type="text" id="model" placeholder="2023">
+            </div>
+            <div class="input-group">
+                <label>Make</label>
+                <input type="text" id="make" placeholder="Bajaj CNG">
+            </div>
+            <div class="input-group">
+                <label>Engine No</label>
+                <input type="text" id="engNo">
+            </div>
+            <div class="input-group">
+                <label>Chassis No</label>
+                <input type="text" id="chasNo">
+            </div>
+
+            <h3 class="section-title">Purchaser (Buyer) Details</h3>
+            <div class="input-group full-width">
+                <label>Purchaser Name <span style="color:var(--error)">*</span></label>
+                <input type="text" id="buyerName">
+            </div>
+            <div class="input-group">
+                <label>Purchaser S/o</label>
+                <input type="text" id="buyerSo">
+            </div>
+            <div class="input-group">
+                <label>Purchaser Cell</label>
+                <input type="text" id="buyerCell">
+            </div>
+            <div class="input-group">
+                <label>Upload Photo</label>
+                <input type="file" id="buyerPhoto" accept="image/*">
+            </div>
+
+            <h3 class="section-title">Payment Information</h3>
+            <div class="input-group">
+                <label>Total Rate (Rs) <span style="color:var(--error)">*</span></label>
+                <input type="number" id="totalRate" oninput="calcBalance()">
+            </div>
+            <div class="input-group">
+                <label>Advance Paid (Rs) <span style="color:var(--error)">*</span></label>
+                <input type="number" id="advance" oninput="calcBalance()">
+            </div>
+            <div class="input-group">
+                <label>Balance Remaining</label>
+                <input type="number" id="balance" readonly style="background:#334155; cursor:not-allowed;">
+            </div>
+
+            <h3 class="section-title">Finance Details (If Applicable)</h3>
+            <div class="input-group full-width">
+                <label>Financer Name</label>
+                <input type="text" id="finName" placeholder="Sumangali Financier's">
+            </div>
+            <div class="input-group">
+                <label>Finance Amount</label>
+                <input type="number" id="finAmt">
+            </div>
+            <div class="input-group">
+                <label>Installment (Per Month)</label>
+                <input type="number" id="finEmi">
+            </div>
+            <div class="input-group">
+                <label>Total Months</label>
+                <input type="number" id="finMonths" oninput="calcFinBalance()">
+            </div>
+            <div class="input-group">
+                <label>Paid Months</label>
+                <input type="number" id="finPaid" oninput="calcFinBalance()">
+            </div>
+            <div class="input-group">
+                <label>Balance Months</label>
+                <input type="number" id="finBalMonths" readonly>
+            </div>
+
+            <h3 class="section-title">Documents Handover</h3>
+            <div class="full-width checkbox-group">
+                <label class="checkbox-item"><input type="checkbox" id="doc_rc"> R/C</label>
+                <label class="checkbox-item"><input type="checkbox" id="doc_ins"> Insurance</label>
+                <label class="checkbox-item"><input type="checkbox" id="doc_met"> Meter</label>
+                <label class="checkbox-item"><input type="checkbox" id="doc_noc"> NOC</label>
+                <label class="checkbox-item"><input type="checkbox" id="doc_per"> Permit</label>
+            </div>
+             <div class="input-group" style="margin-top:15px">
+                <label>Delivery Time</label>
+                <input type="time" id="delTime">
+            </div>
+
+        </div>
+
+        <div class="actions">
+            <button class="btn-generate" onclick="generateReceipt()">Generate Receipt</button>
+        </div>
+    </div>
+
+    <div id="receiptPreview">
+        <div class="paper">
+            <div class="r-header">
+                <h2>New Mahek Auto Consultants</h2>
+                <div class="sub">SPECIAL IN DIESEL AUTO - COMMISSION AGENTS</div>
+                <div class="r-address">Beside Bharat Petrol Pump, H.No. 5-150, Moosapet, Kukatpally, Pillar No. 892, Hyderabad.</div>
+                <h3 style="margin-top:10px; text-decoration: underline; color:black;">SALE ADVANCE RECEIPT</h3>
+            </div>
+
+            <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
+                <span><strong>No:</strong> <span id="out_no"></span></span>
+                <span><strong>Date:</strong> <span id="out_date"></span></span>
+            </div>
+
+            <div class="r-row">
+                <span>I, Mr./Mrs.</span> <span class="r-field" id="out_sel_name"></span>
+                <span>S/o</span> <span class="r-field" id="out_sel_so"></span>
+            </div>
+            <div class="r-row">
+                <span>Resident of H.No</span> <span class="r-field" id="out_sel_addr"></span>
+            </div>
+            <div class="r-row">
+                <span>Cell No.</span> <span class="r-field" id="out_sel_cell"></span>
+            </div>
+
+            <div class="legal-text">
+                Do hereby solemnly and sincerely take oath affirm and state as follows: That I have sold A/R, D/V, F/V, Car new/old with finance or without finance on behalf of Mr...
+            </div>
+
+            <div class="r-row">
+                <span>Bearing Reg No.</span> <span class="r-field" id="out_reg"></span>
+                <span>Model</span> <span class="r-field" id="out_model"></span>
+                <span>Make</span> <span class="r-field" id="out_make"></span>
+            </div>
+            <div class="r-row">
+                <span>Engine No.</span> <span class="r-field" id="out_eng"></span>
+                <span>Chassis No.</span> <span class="r-field" id="out_chas"></span>
+            </div>
+
+            <div class="r-row" style="margin-top:15px;">
+                <span>To Mr.</span> <span class="r-field" id="out_buy_name"></span>
+                <span>S/o</span> <span class="r-field" id="out_buy_so"></span>
+            </div>
+            <div class="r-row">
+                <span>Rate Sum Rupees</span> <span class="r-field" id="out_rate"></span>
+            </div>
+            <div class="r-row">
+                <span>Has been received Advance Rs.</span> <span class="r-field" id="out_adv"></span>
+            </div>
+            <div class="r-row">
+                <span>The Balance Remaining amount of Rupees</span> <span class="r-field" id="out_bal"></span>
+            </div>
+
+            <div class="finance-box" id="financeBox" style="display:none;">
+                <div class="finance-title">FINANCE AUTO - DETAILS AS BELOW:</div>
+                <div class="r-row">
+                    <span>Financer Name:</span> <span class="r-field" id="out_fin_name"></span>
+                    <span>Amount:</span> <span class="r-field" id="out_fin_amt"></span>
+                </div>
+                <div class="r-row">
+                    <span>Installment/Month:</span> <span class="r-field" id="out_fin_emi"></span>
+                    <span>Total Months:</span> <span class="r-field" id="out_fin_tot"></span>
+                </div>
+                <div class="r-row">
+                    <span>Paid Inst:</span> <span class="r-field" id="out_fin_paid"></span>
+                    <span>Balance Inst:</span> <span class="r-field" id="out_fin_bal"></span>
+                </div>
+            </div>
+
+            <div class="r-row" style="margin-top:15px; font-size:12px;">
+                <span>Delivery:</span> <span class="r-field" id="out_del_time"></span>
+                <span>Docs:</span> <span class="r-field" id="out_docs"></span>
+            </div>
+
+            <div class="footer-sigs">
+                <div class="sig-box">
+                    <br>_______________<br>Office Incharge
+                </div>
+                <div class="sig-box">
+                    <br>_______________<br>Sign. Seller
+                </div>
+                <div class="sig-box">
+                    <br>_______________<br>Sign. Purchaser
+                </div>
+                <div class="photo-box">
+                    <img id="out_photo_img" alt="Photo" style="display:none;">
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button class="btn-edit" onclick="editMode()">Edit Details</button>
+            <button class="btn-print" onclick="window.print()">Print Bill</button>
+            <button class="btn-share" onclick="shareWhatsapp()">Share WhatsApp</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 1. Auto Calculation for Balance
+    function calcBalance() {
+        const total = parseFloat(document.getElementById('totalRate').value) || 0;
+        const adv = parseFloat(document.getElementById('advance').value) || 0;
+        document.getElementById('balance').value = total - adv;
+    }
+
+    // 2. Auto Calculation for Finance Months
+    function calcFinBalance() {
+        const total = parseInt(document.getElementById('finMonths').value) || 0;
+        const paid = parseInt(document.getElementById('finPaid').value) || 0;
+        document.getElementById('finBalMonths').value = total - paid;
+    }
+
+    // 3. Photo Handling
+    let photoDataUrl = "";
+    document.getElementById('buyerPhoto').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) { photoDataUrl = e.target.result; };
+            reader.readAsDataURL(file);
+        }
+    });
+
+    // 4. Generate Receipt Function
+    function generateReceipt() {
+        // Mandatory fields required for submission (Seller Name and Mobile are now included)
+        const requiredIds = ['recNo', 'date', 'sellerName', 'sellerCell', 'regNo', 'buyerName', 'totalRate', 'advance'];
+        let isValid = true;
+        
+        requiredIds.forEach(id => {
+            const el = document.getElementById(id);
+            if(!el.value.trim()) {
+                el.classList.add('shake-error');
+                setTimeout(() => el.classList.remove('shake-error'), 500);
+                isValid = false;
+            } else {
+                // IMPORTANT: Remove error class if valid, otherwise the shake animation won't re-trigger
+                el.classList.remove('shake-error');
+            }
+        });
+
+        if(!isValid) {
+            alert("Please fill all mandatory fields (marked with *) before generating the receipt.");
+            return;
+        }
+
+        // --- Data Mapping Logic ---
+        
+        // Define all fields to map
+        const fields = [
+            // Receipt Meta
+            {input: 'recNo', output: 'out_no'},
+            {input: 'date', output: 'out_date'},
+            
+            // Seller Details (FIXED MAPPING)
+            {input: 'sellerName', output: 'out_sel_name'},
+            {input: 'sellerSo', output: 'out_sel_so'},
+            {input: 'sellerAddr', output: 'out_sel_addr'},
+            {input: 'sellerCell', output: 'out_sel_cell'},
+            
+            // Vehicle Details
+            {input: 'regNo', output: 'out_reg'},
+            {input: 'model', output: 'out_model'},
+            {input: 'make', output: 'out_make'},
+            {input: 'engNo', output: 'out_eng'},
+            {input: 'chasNo', output: 'out_chas'},
+
+            // Buyer Details
+            {input: 'buyerName', output: 'out_buy_name'},
+            {input: 'buyerSo', output: 'out_buy_so'},
+
+            // Payment Details
+            {input: 'totalRate', output: 'out_rate', isCurrency: true},
+            {input: 'advance', output: 'out_adv', isCurrency: true},
+            {input: 'balance', output: 'out_bal', isCurrency: true},
+            
+            // Footer
+            {input: 'delTime', output: 'out_del_time'},
+        ];
+        
+        fields.forEach(field => {
+            const inputEl = document.getElementById(field.input);
+            const outputEl = document.getElementById(field.output);
+            
+            if (inputEl && outputEl) {
+                let value = inputEl.value;
+                if (field.isCurrency) {
+                    outputEl.innerText = `Rs. ${value}/-`;
+                } else {
+                    outputEl.innerText = value;
+                }
+            }
+        });
+
+        // Handle Finance
+        const finName = document.getElementById('finName').value;
+        if(finName) {
+            document.getElementById('financeBox').style.display = 'block';
+            document.getElementById('out_fin_name').innerText = finName;
+            document.getElementById('out_fin_amt').innerText = document.getElementById('finAmt').value;
+            document.getElementById('out_fin_emi').innerText = document.getElementById('finEmi').value;
+            document.getElementById('out_fin_tot').innerText = document.getElementById('finMonths').value;
+            document.getElementById('out_fin_paid').innerText = document.getElementById('finPaid').value;
+            document.getElementById('out_fin_bal').innerText = document.getElementById('finBalMonths').value;
+        } else {
+            document.getElementById('financeBox').style.display = 'none';
+        }
+
+        // Handle Documents Checkbox
+        let docs = [];
+        if(document.getElementById('doc_rc').checked) docs.push("R/C");
+        if(document.getElementById('doc_ins').checked) docs.push("Ins");
+        if(document.getElementById('doc_met').checked) docs.push("Meter");
+        if(document.getElementById('doc_noc').checked) docs.push("NOC");
+        if(document.getElementById('doc_per').checked) docs.push("Permit");
+        document.getElementById('out_docs').innerText = docs.join(', ');
+
+        // Handle Photo
+        const imgEl = document.getElementById('out_photo_img');
+        if(photoDataUrl) {
+            imgEl.src = photoDataUrl;
+            imgEl.style.display = 'block';
+        } else {
+            imgEl.style.display = 'none';
+        }
+
+        // Toggle Views
+        document.getElementById('inputForm').style.display = 'none';
+        document.getElementById('receiptPreview').style.display = 'block';
+        
+        // Show Buttons
+        document.querySelector('.btn-print').style.display = 'inline-block';
+        document.querySelector('.btn-share').style.display = 'inline-block';
+        document.querySelector('.btn-edit').style.display = 'inline-block';
+    }
+
+    function editMode() {
+        document.getElementById('inputForm').style.display = 'block';
+        document.getElementById('receiptPreview').style.display = 'none';
+    }
+
+    function shareWhatsapp() {
+        const name = document.getElementById('buyerName').value;
+        const reg = document.getElementById('regNo').value;
+        const total = document.getElementById('totalRate').value;
+        const adv = document.getElementById('advance').value;
+        
+        const msg = `*RECEIPT - NEW MAHEK AUTO*\nVehicle: ${reg}\nBuyer: ${name}\nTotal: Rs.${total}\nAdvance: Rs.${adv}\n\nThank you!`;
+        window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, '_blank');
+    }
+</script>
+
+</body>
+</html>
+```

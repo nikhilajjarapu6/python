@@ -6,8 +6,8 @@ import json
 
 
 def main():
-    pdf_path = r"D:\Nikhil\python\report_analysis\data\raw\KIMS _ EHR (19).pdf"
-    pdf_path = r"D:\Program Collection\Python\report_analysis copy\data\raw\kiran.pdf"
+    # pdf_path = r"D:\Nikhil\python\report_analysis\data\raw\KIMS _ EHR (19).pdf"
+    pdf_path = r"report_analysis copy\data\raw\kiran.pdf"
 
 
     # Extract all sections

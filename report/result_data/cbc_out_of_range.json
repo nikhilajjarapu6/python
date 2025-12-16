@@ -1,0 +1,1778 @@
+[
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"93 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"05 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,050 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"13 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,400 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.2 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"12 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"33.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.55 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,420 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.7 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"30.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.30 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.1 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.37 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"13 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.51 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"33.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.69 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,440 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"12 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.48 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.3 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"16 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"11.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,930 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"16 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"30.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.44 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.1 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.25 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"13,630 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"84 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.63 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"13,970 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"24.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.83 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"13,330 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.51 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8\nMillions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"12,730 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000\ncells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"95000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1\nLakhs\/Cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"34.6 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.8 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.50 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"90000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.52 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"75000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"90 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"23.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.80 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"80000 \/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"5.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"17.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.02 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.25 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.1 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"93 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"22.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.61 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,600 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"PLATELET COUNT",
+        "RESULT":"1.30 Lakhs\/Cumm",
+        "NORMAL RANGE":"1.5 - 4.1 Lakhs\/Cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"20.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.37 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"21,050 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"14.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"97 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"25.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.88 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"19,870 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"97 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"6.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"20.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.34 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,000 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.6 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"93 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.9 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"23.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.68 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"15,500 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.6 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"28.5 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.22 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"14,860 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.2 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"24.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.80 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"11,460 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"15.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"04 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"7.1 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"21.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.39 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"16,040 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.0 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"25.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.90 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,470 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.55 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"14,280 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"89 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"26.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.01 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,850 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"98 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"2.0 - 10.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"26.1 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.96 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"10,110 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.8 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"98 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.1 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.14 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"16.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"96 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"02 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.7 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.35 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"17.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"97 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"01 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.8 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.17 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"17.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"95 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.1 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"30.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.43 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"17.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"94 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"03 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.02 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"87 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"07 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.2 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.43 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"88 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"10.4 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"31.9 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.46 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"88 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"06 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.3 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.19 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.1 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"83 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"08 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"EOSINOPHILS",
+        "RESULT":"00 %",
+        "NORMAL RANGE":"1.0 - 6.0 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.7 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.6 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.22 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.3 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"09 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.0 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.8 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.01 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.9 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"10 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.8 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.94 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.4 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"POLYMORPHS",
+        "RESULT":"81 %",
+        "NORMAL RANGE":"40 - 80 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"10 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"8.6 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"27.4 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"2.93 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"3,460 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"MEAN CELL HAEMOGLOBIN CONCENTRATION (MCHC)",
+        "RESULT":"31.4 g\/l",
+        "NORMAL RANGE":"31.5 - 34.5 g\/l",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.5 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"14 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"13 %",
+        "NORMAL RANGE":"2.0 - 10.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.3 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"28.2 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.03 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"2,990 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"19.2 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"15 %",
+        "NORMAL RANGE":"2.0 - 10.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"HAEMOGLOBIN",
+        "RESULT":"9.5 gm%",
+        "NORMAL RANGE":"12.0 - 15.0 gm%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"HAEMATOCRIT(PCV)",
+        "RESULT":"29.0 Vol%",
+        "NORMAL RANGE":"36.0 - 46.0 Vol%",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RBC COUNT",
+        "RESULT":"3.13 Millions\/cumm",
+        "NORMAL RANGE":"3.8 - 4.8 Millions\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"WBC COUNT",
+        "RESULT":"3,150 cells\/cumm",
+        "NORMAL RANGE":"4000 - 10000 cells\/cumm",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"RDW - CV",
+        "RESULT":"18.7 %",
+        "NORMAL RANGE":"11.6 - 14.0 %",
+        "FLAG":"HIGH"
+    },
+    {
+        "PARAMETER":"LYMPHOCYTES",
+        "RESULT":"18 %",
+        "NORMAL RANGE":"20 - 40 %",
+        "FLAG":"LOW"
+    },
+    {
+        "PARAMETER":"MONOCYTES",
+        "RESULT":"16 %",
+        "NORMAL RANGE":"2.0 - 10.0 %",
+        "FLAG":"HIGH"
+    }
+]

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pulmonology Portal Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0d47a1, #26c6da);
+      padding: 20px;
+    }
+
+    .login-wrapper {
+      background: rgba(255, 255, 255, 0.96);
+      width: 100%;
+      max-width: 420px;
+      border-radius: 14px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+      padding: 28px 26px 26px;
+    }
+
+    .app-title {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    .app-title h1 {
+      font-size: 1.6rem;
+      color: #0d47a1;
+      margin-bottom: 4px;
+    }
+
+    .app-title p {
+      font-size: 0.9rem;
+      color: #607d8b;
+    }
+
+    .role-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 8px 0 12px;
+      justify-content: center;
+    }
+
+    .role-tag {
+      font-size: 0.7rem;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid #e0e0e0;
+      color: #455a64;
+      background: #fafafa;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 4px;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: 0.85rem;
+      color: #263238;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 9px 11px;
+      border-radius: 8px;
+      border: 1px solid #cfd8dc;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      background-color: #ffffff;
+    }
+
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    select:focus {
+      border-color: #1e88e5;
+      box-shadow: 0 0 0 2px rgba(30, 136, 229, 0.16);
+    }
+
+    .role-options {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 8px;
+    }
+
+    .role-card {
+      border-radius: 10px;
+      border: 1px solid #cfd8dc;
+      padding: 8px 10px;
+      font-size: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      transition: border-color 0.2s, background-color 0.2s, transform 0.1s;
+      background: #f9fbfc;
+    }
+
+    .role-card input {
+      accent-color: #1e88e5;
+    }
+
+    .role-card span {
+      font-weight: 500;
+      color: #37474f;
+    }
+
+    .role-card small {
+      display: block;
+      font-size: 0.7rem;
+      color: #78909c;
+    }
+
+    .role-card:hover {
+      border-color: #1e88e5;
+      background: #f1f8ff;
+      transform: translateY(-1px);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .remember {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.8rem;
+      color: #546e7a;
+    }
+
+    .remember input {
+      accent-color: #1e88e5;
+    }
+
+    .forgot {
+      font-size: 0.8rem;
+      color: #1e88e5;
+      text-decoration: none;
+    }
+
+    .forgot:hover {
+      text-decoration: underline;
+    }
+
+    .login-btn {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: none;
+      background: linear-gradient(135deg, #1e88e5, #26c6da);
+      color: #ffffff;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 8px 18px rgba(30, 136, 229, 0.35);
+      transition: transform 0.1s ease, box-shadow 0.1s ease, opacity 0.15s ease;
+    }
+
+    .login-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 22px rgba(30, 136, 229, 0.45);
+      opacity: 0.96;
+    }
+
+    .login-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 6px 14px rgba(30, 136, 229, 0.4);
+    }
+
+    .footer-text {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 0.78rem;
+      color: #78909c;
+    }
+
+    .footer-text span {
+      color: #1e88e5;
+      font-weight: 500;
+    }
+
+    @media (max-width: 480px) {
+      .login-wrapper {
+        padding: 22px 18px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-wrapper">
+    <div class="app-title">
+      <h1>Pulmonology Portal</h1>
+      <p>Secure access for respiratory care team</p>
+      <div class="role-tags">
+        <span class="role-tag">Patients</span>
+        <span class="role-tag">Doctors</span>
+        <span class="role-tag">Therapists</span>
+        <span class="role-tag">Home nurses</span>
+        <span class="role-tag">Care coordinators</span>
+      </div>
+    </div>
+
+    <form id="loginForm">
+      <div class="field-group">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="name@example.com" required />
+      </div>
+
+      <div class="field-group">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter password" required />
+      </div>
+
+      <div class="field-group">
+        <label>Login as</label>
+        <div class="role-options">
+          <label class="role-card">
+            <input type="radio" name="role" value="patient" checked />
+            <div>
+              <span>Patient</span>
+              <small>View reports & visits</small>
+            </div>
+          </label>
+
+          <label class="role-card">
+            <input type="radio" name="role" value="doctor" />
+            <div>
+              <span>Doctor</span>
+              <small>Manage consultations</small>
+            </div>
+          </label>
+
+          <label class="role-card">
+            <input type="radio" name="role" value="therapist" />
+            <div>
+              <span>Therapist</span>
+              <small>Track therapy plans</small>
+            </div>
+          </label>
+
+          <label class="role-card">
+            <input type="radio" name="role" value="homenurse" />
+            <div>
+              <span>Home Nurse</span>
+              <small>Home visit logs</small>
+            </div>
+          </label>
+
+          <label class="role-card">
+            <input type="radio" name="role" value="carecoordinator" />
+            <div>
+              <span>Care Coordinator</span>
+              <small>Assign & follow-up</small>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="actions">
+        <label class="remember">
+          <input type="checkbox" id="rememberMe" />
+          Remember me
+        </label>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+
+    <p class="footer-text">
+      Pulmonology care platform • <span>HIPAA-ready UI only</span>
+    </p>
+  </div>
+
+  <!-- <script>
+    const form = document.getElementById("loginForm");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const email = document.getElementById("email").value.trim();
+      const password = document.getElementById("password").value.trim();
+      const role = document.querySelector('input[name="role"]:checked').value;
+
+      if (!email || !password) {
+        alert("Please enter email and password.");
+        return;
+      }
+
+      // Demo: show which dashboard you would go to
+      // Replace this with real backend call + redirect
+      switch (role) {
+        case "patient":
+          alert("Login as Patient. Redirect to /patient/dashboard");
+          // window.location.href = "/patient/dashboard";
+          break;
+        case "doctor":
+          alert("Login as Doctor. Redirect to /doctor/dashboard");
+          break;
+        case "therapist":
+          alert("Login as Therapist. Redirect to /therapist/dashboard";
+          break;
+        case "homenurse":
+          alert("Login as Home Nurse. Redirect to /homenurse/dashboard");
+          break;
+        case "carecoordinator":
+          alert("Login as Care Coordinator. Redirect to /carecoordinator/dashboard");
+          break;
+        default:
+          alert("Unknown role.");
+      }
+    });
+  </script> -->
+</body>
+</html>

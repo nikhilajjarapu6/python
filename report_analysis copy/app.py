@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File, Form
+from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import json
@@ -24,7 +24,7 @@ app.add_middleware(
 
 # ---------- Paths ----------
 FRONTEND_PATH = r"D:\Nikhil\python\report_analysis\frontend\index.html"
-DEFAULT_PDF_PATH = r"D:\Nikhil\python\report_analysis\data\raw\KIMS _ EHR (19).pdf"
+DEFAULT_PDF_PATH = r"D:\Program Collection\Python\report_analysis copy\data\raw\kiran.pdf"
 UPLOAD_FOLDER = r"D:\Nikhil\python\report_analysis\data\uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
@@ -87,7 +87,6 @@ async def upload_pdf(file: UploadFile = File(...)):
         with open(file_path, "wb") as buffer:
             buffer.write(await file.read())
 
-        # Process the uploaded PDF
         load_pdf_and_extract(file_path)
 
         return JSONResponse(content={"message": f"File '{file.filename}' processed successfully."}, status_code=200)
