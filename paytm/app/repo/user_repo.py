@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from paytm.app.models.user import User
-from paytm.app.schemas.user import UserCreate, UserUpdate
+from app.models.user import User
+from app.schemas.user import UserCreate, UserUpdate
 from typing import List, Optional
 
 
@@ -20,7 +20,8 @@ class UserRepo:
     
     def find_by_email(self,email:str)->User|None:
         return (self.db.query(User).filter(User.email==email).first())
-    
+    def finb_by_mobile(self,mobile:str)->User|None:
+        return (self.db.query(User).filter(User.phone==mobile).first())
     def delete(self, user: User) -> None:
         self.db.delete(user)
         self.db.commit()

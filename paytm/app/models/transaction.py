@@ -1,6 +1,6 @@
 from sqlalchemy import Column,Integer,String,DateTime,Enum,ForeignKey,Numeric
 from sqlalchemy.orm import relationship
-from database.database import Base
+from app.database.database import Base
 from datetime import datetime
 import enum
 
@@ -21,7 +21,7 @@ class TransactionStatus(str, enum.Enum):
 class Transaction(Base):
     __tablename__="transactions"
     id=Column(Integer,primary_key=True,index=True)
-    txn_id = Column(String(50), unique=True, index=True)
+    txn_id = Column(String(20), unique=True, nullable=False, index=True)
     sender_id=Column(Integer,ForeignKey("wallets.id"))
     receiver_id=Column(Integer,ForeignKey("wallets.id"))
     amount=Column(Numeric(10,2),nullable=False)
@@ -29,6 +29,7 @@ class Transaction(Base):
     created_at=Column(DateTime,nullable=False,default=datetime.utcnow)
     payment_method=Column(Enum(PaymentMethod),nullable=False)
     transaction_status=Column(Enum(TransactionStatus),nullable=False)
+    payment_time=Column(DateTime,onupdate=datetime.utcnow)
     sender_wallet=relationship("Wallet",foreign_keys=[sender_id],back_populates="send_transactions")
     receiver_wallet=relationship("Wallet",foreign_keys=[receiver_id],back_populates="received_transactions")
 

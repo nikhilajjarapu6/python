@@ -1,6 +1,6 @@
 from sqlalchemy import Integer,String,DateTime,ForeignKey,Column,DECIMAL,Boolean,Numeric
 from sqlalchemy.orm import relationship
-from database.database import Base
+from app.database.database import Base
 from datetime import datetime
 
 class Wallet(Base):

@@ -2,10 +2,10 @@ from pydantic import BaseModel,EmailStr
 from datetime import datetime
 
 class UserCreate(BaseModel):
-    name:str
-    phone:int
-    email:EmailStr
-    password:str
+    name: str | None = None
+    phone: int | None = None
+    email: EmailStr | None = None
+    password: str | None = None
 
 class UserUpdate(UserCreate):
     name: str | None = None

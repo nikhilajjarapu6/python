@@ -65,3 +65,4 @@ class WalletService:
 
         wallet.is_active = True
         return self.repo.save(wallet)
+    

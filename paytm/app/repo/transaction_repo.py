@@ -1,16 +1,13 @@
 from sqlalchemy.orm import Session
-from paytm.app.models.transaction import Transaction, TransactionStatus,PaymentMethod
+from app.models.transaction import Transaction, TransactionStatus, PaymentMethod
 from typing import List, Optional
-
 
 class TransactionRepo:
     def __init__(self, db: Session):
         self.db = db
 
-    def create(self, txn: Transaction) -> Transaction:
+    def add(self, txn: Transaction) -> Transaction:
         self.db.add(txn)
-        self.db.commit()
-        self.db.refresh(txn)
         return txn
 
     def find_by_id(self, id: int) -> Optional[Transaction]:
@@ -36,12 +33,10 @@ class TransactionRepo:
             .filter(Transaction.transaction_status == status)
             .all()
         )
-    
-    def find_by_payment_type(self,type:PaymentMethod)->List[Transaction]:
-        return(self.db.query(Transaction).filter(Transaction.payment_method==type).all)
 
-    def save(self, txn: Transaction) -> Transaction:
-        self.db.add(txn)
-        self.db.commit()
-        self.db.refresh(txn)
-        return txn
+    def find_by_payment_type(self, method: PaymentMethod) -> List[Transaction]:
+        return (
+            self.db.query(Transaction)
+            .filter(Transaction.payment_method == method.value)
+            .all()
+        )

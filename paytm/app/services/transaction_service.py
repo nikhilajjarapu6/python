@@ -11,38 +11,43 @@ class TransactionService:
     def __init__(self,db:Session):
         self.repo=TransactionRepo(db)
 
-    def create_initiated(self,sender_wallet_id: int,receiver_wallet_id: int,amount: Decimal,payment_method: PaymentMethod,description: str | None) -> Transaction:
+    def create_initiated(self,txn_id:str,sender_id: int,receiver_id: int,amount: Decimal,payment_method: PaymentMethod,description: str | None) -> Transaction:
      txn=Transaction(
-        sender_wallet_id=sender_wallet_id,
-        receiver_wallet_id=receiver_wallet_id,
+        txn_id=txn_id,
+        sender_id=sender_id,
+        receiver_id=receiver_id,
         amount=amount,
         payment_method=payment_method,
         description=description,
         transaction_status=TransactionStatus.INITIATED
      )
-     return self.repo.create(txn)
+     return self.repo.add(txn)
     
     def mark_success(self,txn:Transaction)->Transaction:
        txn.transaction_status=TransactionStatus.SUCCESS
-       return self.repo.save(txn)
+       return self.repo.add(txn)
     
     def mark_fail(self,txn:Transaction)->Transaction:
         txn.transaction_status=TransactionStatus.FAILED
-        return self.repo.save(txn)
+        return self.repo.add(txn)
     
     def mark_pending(self,txn:Transaction)->Transaction:
         txn.transaction_status=TransactionStatus.PENDING
-        return self.repo.save(txn)
+        return self.repo.add(txn)
     
     def mark_reversed(self,txn:Transaction)->Transaction:
         txn.transaction_status=TransactionStatus.REVERSED
-        return self.repo.save(txn)
+        return self.repo.add(txn)
     
-    def find_by_txn_id(self,txt_id:int)->Optional[Transaction]:
+    def find_by_txn_id(self,txt_id:str)->Optional[Transaction]:
        return self.repo.find_by_txn_id(txt_id)
     
     def find_by_wallet(self,id:int)->List[Transaction]:
        return self.repo.find_by_wallet(id)
     
-    def find_by_status(self,status:TransactionStatus)->Optional[Transaction]:
+    def find_by_status(self,status:TransactionStatus)->List[Transaction]:
        return self.repo.find_by_status(status)
+    
+    def find_by_payment(self,payment:PaymentMethod)->List[Transaction]:
+       print(payment, type(payment))
+       return self.repo.find_by_payment_type(payment)
